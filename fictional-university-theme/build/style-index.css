@@ -1660,3 +1660,140 @@ body.admin-bar .search-overlay {
   cursor: pointer;
   border-radius: 5px;
 }
+
+/* How it works page CSS*/
+
+.how-it-works{
+  padding: 100px 10px 20px 10px;
+  background-color: CFE6F5;
+}
+
+.column-header{
+  
+  color:  #0059B5;
+  font-weight: 400;
+  font-size: 40px;
+}
+.column-1{
+  
+  width: 50%;
+  height: 50%;
+  flex: 1;
+}
+.column-2{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 50%;
+  flex: 1;
+  padding-left: 20px;
+  align-content: center;
+
+  justify-content: space-between;
+  
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+  align-content: center;
+}
+
+.row{
+  display: flex;
+  margin: 25px 10px 40px 10px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  flex-direction: row;
+  gap: 5%;
+  
+  justify-content: space-between;
+  align-content: center;
+}
+
+@media (max-width: 960px){
+  .row{
+    display: block;
+  }
+  .column-1{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .column-header{
+    padding-top: 50px;
+  }
+  .step-image{
+    min-width: 500px;
+    max-width: 960px;
+    margin: auto 0;
+    float: none;
+  }
+  .step-description{
+    padding: 20, 20, 20, 20
+  }
+
+}
+
+@media (min-width: 960px){
+  .column-1{
+    padding-left: 50px;
+  }
+
+  .step-image{
+    min-width: 500px;
+    max-width: 1000px;
+    /* align-content: center;
+    justify-content: center; */
+  }
+
+  .how-it-works .row .column-2{
+    padding-right: 50px;
+    margin-left: 50px;
+  }
+  .step-description{
+    padding-right: 0;
+  }
+
+}
+
+.step-description{
+ 
+  font-weight: 300;
+  font-size: 27px;
+  
+}
+
+
+.step-image{
+  
+  height: 90%;
+
+  margin: 10px auto 10px auto;
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+
+  min-width: 600px;
+  min-height: 300px;
+  align-content: center;
+
+
+  
+}
+
+
+.safety-image{
+  
+  height: 33%;
+  display: flex;
+  margin: 5px auto 5px auto;
+  width: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-direction: row;
+  min-width: 300px;
+  min-height: 200px;
+  
+}
+

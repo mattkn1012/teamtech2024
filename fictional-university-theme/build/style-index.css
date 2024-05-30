@@ -1532,3 +1532,131 @@ body.admin-bar .search-overlay {
   border-bottom: none;
   margin-bottom: 0;
 }
+
+/* Partenerships page */
+.partner {
+  padding: 100px 0 300px 80px;
+}
+
+.partner h1 {
+  font-size: 56px;
+  color:  #0059B5;
+  font-weight: 400;
+  text-align: center;
+}
+
+.button {
+  margin: 50px 0; /* Increase the top margin to push the button lower */
+}
+
+.button-primary {
+  color: #0059B5;
+  background-color: #CFE6F5;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+
+
+.partner h3 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.ourpartnerships {
+  background-color: #CFE6F5;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.ourpartnerships h1 {
+  font-size: 48px;
+  color: #0059B5;
+}
+
+.partnerships {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.partnership {
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.testimonials {
+  background-color: #CFE6F5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonials h1 {
+  font-size: 48px;
+  color: #0059B5;
+}
+
+.testimonial {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.person-image {
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.contact-us {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-us h1 {
+  font-size: 48px;
+  color: #0059B5;
+}
+
+.contact-us h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.contact-us form {
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-us input,
+.contact-us textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-us button {
+  background-color: #0059B5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
